@@ -25,7 +25,7 @@ function NoMatch() {
 function App() {
     return (
         <>
-            <BrowserRouter basename="/spa-project">
+            <HashRouter basename="/spa-project">
                 <Header />
                 <main className="container content">
                     <Routes>
@@ -38,7 +38,7 @@ function App() {
                     </Routes>
                 </main>
                 <Footer />
-            </BrowserRouter>
+            </HashRouter>
         </>
     );
 }
